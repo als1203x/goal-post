@@ -56,6 +56,10 @@
 		2B31A5C0201ABF5E00E4F93F /* goal post */ = {
 			isa = PBXGroup;
 			children = (
+				2B31A5DA201ABFCD00E4F93F /* Extensions */,
+				2B31A5D9201ABFAF00E4F93F /* Views */,
+				2B31A5D8201ABFA200E4F93F /* Enums */,
+				2B31A5D7201ABF8400E4F93F /* Controller */,
 				2B31A5C1201ABF5E00E4F93F /* AppDelegate.swift */,
 				2B31A5C3201ABF5E00E4F93F /* ViewController.swift */,
 				2B31A5C5201ABF5F00E4F93F /* Main.storyboard */,
@@ -65,6 +69,34 @@
 				2B31A5C8201ABF5F00E4F93F /* goal_post.xcdatamodeld */,
 			);
 			path = "goal post";
+			sourceTree = "<group>";
+		};
+		2B31A5D7201ABF8400E4F93F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B31A5D8201ABFA200E4F93F /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		2B31A5D9201ABFAF00E4F93F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B31A5DA201ABFCD00E4F93F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
