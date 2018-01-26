@@ -21,7 +21,7 @@
         <!--GoalsVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="GoalsVC" customModule="goal_post" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GoalVC" id="BYZ-38-t0r" customClass="GoalsVC" customModule="goal_post" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -185,7 +185,7 @@
         <!--Create GoalVC-->
         <scene sceneID="3A7-tz-kQ3">
             <objects>
-                <viewController id="kJU-V1-YRe" customClass="CreateGoalVC" customModule="goal_post" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateGoalVC" id="kJU-V1-YRe" customClass="CreateGoalVC" customModule="goal_post" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zbJ-V8-THb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -316,7 +316,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GbP-PB-kzQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="680" y="48"/>
+            <point key="canvasLocation" x="761" y="32"/>
         </scene>
     </scenes>
     <resources>
