@@ -29,7 +29,7 @@ extension UIViewController  {
             //grab instance of presentedVC to dismiss, once dismissed transition SecD
         guard let presentedViewController = presentedViewController else { return }
         presentedViewController.dismiss(animated: false) {
-            self.view.window?.layer.add(transition forKey: kCATransition)
+            self.view.window?.layer.add(transition, forKey: kCATransition)
             self.present(viewControllerToPresent, animated: false, completion: nil)
         }
     }
