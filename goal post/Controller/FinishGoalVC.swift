@@ -44,7 +44,6 @@ class FinishGoalVC: UIViewController, UITextFieldDelegate {
                 }
             }
         }
-    
     }
     
     func save(completion: (_ finished: Bool) -> ()) {
